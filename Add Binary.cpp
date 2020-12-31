@@ -43,3 +43,6 @@ public:
 // Always add the value of carry.
 // Result is updated to value % 2 + result;
 // and carry becomes value / 2.
+
+// Time: O(max(a.size(), b.size()))
+// Space: O(max(a.size(), b.size()))
